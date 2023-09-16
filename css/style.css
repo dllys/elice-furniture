@@ -1,0 +1,45 @@
+/* MAIN */
+@import url("/css/main/main.css");
+
+/* SUB */
+@import url("/css/sub/sub.css");
+
+/* COMMON */
+body {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+#wrap {
+    width: 100%; 
+    min-width: 1600px;
+    z-index: 1;
+}
+
+.inner {
+    width: 1400px; 
+    margin: 0 auto; 
+    position: relative; 
+    box-sizing: border-box;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
